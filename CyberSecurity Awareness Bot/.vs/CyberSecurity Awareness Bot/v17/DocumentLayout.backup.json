@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Student\\Documents\\GitHub\\POE\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Keitumetse2\\CyberSecurity Awareness Bot\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9ED1676C-AB5E-4F15-85E9-5A7BE31676D4}|CyberSecurity Awareness Bot\\CyberSecurity Awareness Bot.csproj|c:\\users\\student\\documents\\github\\poe\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-keitumetse2\\cybersecurity awareness bot\\cybersecurity awareness bot\\voicegreeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ED1676C-AB5E-4F15-85E9-5A7BE31676D4}|CyberSecurity Awareness Bot\\CyberSecurity Awareness Bot.csproj|solutionrelative:cybersecurity awareness bot\\voicegreeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9ED1676C-AB5E-4F15-85E9-5A7BE31676D4}|CyberSecurity Awareness Bot\\CyberSecurity Awareness Bot.csproj|c:\\users\\student\\documents\\github\\poe\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-keitumetse2\\cybersecurity awareness bot\\cybersecurity awareness bot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ED1676C-AB5E-4F15-85E9-5A7BE31676D4}|CyberSecurity Awareness Bot\\CyberSecurity Awareness Bot.csproj|solutionrelative:cybersecurity awareness bot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "VoiceGreeting.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Documents\\GitHub\\POE\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Keitumetse2\\CyberSecurity Awareness Bot\\CyberSecurity Awareness Bot\\VoiceGreeting.cs",
+              "RelativeDocumentMoniker": "CyberSecurity Awareness Bot\\VoiceGreeting.cs",
+              "ToolTip": "C:\\Users\\Student\\Documents\\GitHub\\POE\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Keitumetse2\\CyberSecurity Awareness Bot\\CyberSecurity Awareness Bot\\VoiceGreeting.cs",
+              "RelativeToolTip": "CyberSecurity Awareness Bot\\VoiceGreeting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T19:42:00.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Documents\\GitHub\\POE\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Keitumetse2\\CyberSecurity Awareness Bot\\CyberSecurity Awareness Bot\\Program.cs",
               "RelativeDocumentMoniker": "CyberSecurity Awareness Bot\\Program.cs",
               "ToolTip": "C:\\Users\\Student\\Documents\\GitHub\\POE\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Keitumetse2\\CyberSecurity Awareness Bot\\CyberSecurity Awareness Bot\\Program.cs",
               "RelativeToolTip": "CyberSecurity Awareness Bot\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-17T12:20:52.392Z",
               "EditorCaption": ""

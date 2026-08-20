@@ -1,8 +1,4 @@
 ﻿using System.Media;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CyberSecurity_Awareness_chatbot
 {
@@ -10,8 +6,16 @@ namespace CyberSecurity_Awareness_chatbot
     {
         public void Voice_Greeting()
         {
-            String file = "";
+            String file = "VoiceGreeting_Audio.wav";
 
+            if (File.Exists(file))
+            {
+             SoundPlayer player = new SoundPlayer(file);
+                player.Play();
+            } else
+            {
+                Console.WriteLine("The voice greetinngs audio was not found");
+            }
         }
     }
 }

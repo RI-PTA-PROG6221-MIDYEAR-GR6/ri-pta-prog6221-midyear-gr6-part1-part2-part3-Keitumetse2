@@ -6,16 +6,10 @@ namespace CyberSecurity_Awareness_chatbot
     {
         public void Voice_Greeting()
         {
-            String file = "VoiceGreeting_Audio.wav";
+           SoundPlayer player = new SoundPlayer("VoiceGreeting_Audio.wav"); 
+            player.Play();
 
-            if (File.Exists(file))
-            {
-             SoundPlayer player = new SoundPlayer(file);
-                player.Play();
-            } else
-            {
-                Console.WriteLine("The voice greetinngs audio was not found");
-            }
+            
         }
     }
 }

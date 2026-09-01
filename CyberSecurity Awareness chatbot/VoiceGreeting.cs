@@ -9,7 +9,7 @@ namespace CyberSecurity_Awareness_chatbot
             try
             {
                 SoundPlayer player = new SoundPlayer("C:\\Users\\Student\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\POE\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Keitumetse2\\CyberSecurity Awareness chatbot\\Voice Greetings Audio.wav");
-                player.Play();
+                player.PlaySync();
             }
             catch (Exception Audio)
             {

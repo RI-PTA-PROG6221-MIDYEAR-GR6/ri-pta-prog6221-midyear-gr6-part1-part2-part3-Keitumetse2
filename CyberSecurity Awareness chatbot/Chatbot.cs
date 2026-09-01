@@ -20,17 +20,17 @@ namespace CyberSecurity_Awareness_chatbot
         {
             Console.WriteLine("Bot: What is your name?? or enter a nickname to proceed");
             Console.Write("You:");
-            Name_User =  Console.ReadLine();
+            Name_User = Console.ReadLine();
 
             Console.WriteLine();
             Console.WriteLine("Bot: Nice to meet you " + Name_User + " !!");
         }
 
-       public void chatbot_begin()
+        public void chatbot_begin()
         {
             Console.WriteLine();
             Console.WriteLine("/////////////////////////////////////");
-            Console.WriteLine(" CYBERSECURITY AWARENESS BOT"); 
+            Console.WriteLine(" CYBERSECURITY AWARENESS BOT");
             Console.WriteLine("/////////////////////////////////////");
 
             Console.WriteLine("Bot: Welcome, " + Name_User + "!");
@@ -38,18 +38,18 @@ namespace CyberSecurity_Awareness_chatbot
             Console.WriteLine("Bot: You can ask me about passwords,phishing,");
             Console.WriteLine("Bot: safe browsing,malware and privacy");
             Console.WriteLine("Type 'exit when you wany to leave'");
-            Console.WriteLine(); 
-            
+            Console.WriteLine();
 
-          
+
+
             Communication responseSystem = new Communication(Name_User);
 
-            while (true) 
+            while (true)
             {
                 Console.Write("You: ");
                 string question = Console.ReadLine();
 
-                if (question.ToLower() == "exit") 
+                if (question.ToLower() == "exit")
                 {
                     Console.WriteLine("Bot: Goodbye " + Name_User);
                     break;
@@ -61,6 +61,7 @@ namespace CyberSecurity_Awareness_chatbot
 
             }
 
-        
+
+        }
     }
 }

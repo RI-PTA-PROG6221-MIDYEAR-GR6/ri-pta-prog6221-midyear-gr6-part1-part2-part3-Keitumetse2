@@ -8,26 +8,96 @@ namespace CyberSecurity_Awareness_chatbot
 {
     public class Communication
     {
-        public Dictionary<string, string> responses = new Dictionary<string, string>()
+        public string Name;
+        public Dictionary<string, List<string>> responses;
+        public Random random = new Random();
+
+        public Communication(string name)
         {
-             { "how are you", "I'm doing great! I'm ready to help you stay safe online." },
-            { "purpose", "My purpose is to help you learn about cybersecurity." },
-            { "what can i ask", "You can ask me about passwords, phishing and safe browsing." },
-            { "password", "Use a strong password and avoid using the same password on different accounts." },
-            { "phishing", "Phishing is when someone tries to trick you into giving away personal information." },
-            { "safe browsing", "For safe browsing, avoid suspicious websites and never click unknown links." }
-        };
-        public string GetAnswer(string question, string name)
-        {
-            question = question.ToLower();
-            foreach (var response in responses)
+            Name = name;
+
+            responses = new Dictionary<string, List<string>>();
+
+            responses.Add("hi", new List<string>
             {
-                if (question.Contains(response.Key))
+                "Hello " + Name + "! How are you?",
+                "Hi " + Name + "! Ready to help you with cybersecurity.",
+                "Helloo there " + Name + "!"
+            });
+            responses.Add("how are you", new List<string>
+            {
+                "Im doing well " + Name + "! How are you?",
+                "Im doing great " + Name + " Ready to help you with cybersecurity.",
+                "Im good thanks for asking " + Name + "!"
+            });
+
+            responses.Add("purpose", new List<string> 
+            {
+                "My purpose is to help you learn about cybersecurity " + Name + ".",
+                "I help users understand how to stay safe online " + Name + "." 
+            });
+            
+            responses.Add("what can i ask", new List<string> {
+                "You can ask me about passwords, phishing, safe browsing, malware and privacy " + Name + "."
+            });
+            
+            responses.Add("password", new List<string> 
+            {
+                "Use a strong password that is difficult to guess, " + Name + ".",
+                "Do not use the same password for every account, " + Name + ".",
+                "A password manager can help you create and store strong passwords, " + Name + "."
+            });
+            
+            responses.Add("phishing", new List<string> 
+            {
+                "Phishing is when criminals try to trick you into giving them personal information, " + Name + ".",
+                "Be careful when clicking links in suspicious emails or messages, " + Name + ".",
+                "Always check who sent a message before clicking on links, " + Name + "." 
+            });
+            
+            responses.Add("safe browsing", new List<string>
+            { 
+                "Keep your web browser updated, " + Name + ".",
+                "Do not enter personal information on suspicious websites, " + Name + ".",
+                "Check that a website is secure before entering sensitive information, " + Name + "."
+            });
+            
+            responses.Add("malware", new List<string> 
+            {
+                "Malware is harmful software that can damage your computer or steal information, " + Name + ".",
+                "Only download software from trusted websites, " + Name + "."
+            });
+           
+            responses.Add("privacy", new List<string>
+            {
+                "Protect your privacy by being careful about what personal information you share online," +
+                " " + Name + ".", "Check the privacy settings on your social media accounts, " + Name + "."
+            });
+            responses.Add("thank you", new List<string>
+            {
+                "You re welcome "+ Name + ".",
+                "No problem "+ Name + ".",
+                "Youre welcome Im happy to help "+ Name + "."
+            });
+        }
+        public string getResponse(string input)
+        {
+            input = input.ToLower();
+            foreach (var item in responses)
+            {
+                if (input.Contains(item.Key))
                 {
-                    return response.Value + " " + name + ".";
+                    return getRandom_response(item.Value);
                 }
-            }
-            return "Sorry " + name + ", I don't have an answer for that yet.";
+            } 
+            return "I'm not sure about that, " + Name + ". Try asking about passwords, phishing, safe browsing, malware or privacy."; 
+
+        }
+        public string getRandom_response(List<string> responseList)
+        {
+            int number = random.Next(responseList.Count);
+
+            return responseList[number];
         }
     }
 }

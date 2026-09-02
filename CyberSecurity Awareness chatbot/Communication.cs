@@ -17,20 +17,7 @@ namespace CyberSecurity_Awareness_chatbot
             Name = name;
 
             responses = new Dictionary<string, List<string>>();
-
-            responses.Add("hi", new List<string>
-            {
-                "Hello " + Name + "! How are you?",
-                "Hi " + Name + "! Ready to help you with cybersecurity.",
-                "Helloo there " + Name + "!"
-            });
-            responses.Add("how are you", new List<string>
-            {
-                "Im doing well " + Name + "! How are you?",
-                "Im doing great " + Name + " Ready to help you with cybersecurity.",
-                "Im good thanks for asking " + Name + "!"
-            });
-
+                   
             responses.Add("purpose", new List<string> 
             {
                 "My purpose is to help you learn about cybersecurity " + Name + ".",
@@ -71,7 +58,8 @@ namespace CyberSecurity_Awareness_chatbot
             responses.Add("privacy", new List<string>
             {
                 "Protect your privacy by being careful about what personal information you share online," +
-                " " + Name + ".", "Check the privacy settings on your social media accounts, " + Name + "."
+                " " + Name + ".", 
+                "Check the privacy settings on your social media accounts, " + Name + "."
             });
             responses.Add("thank you", new List<string>
             {

@@ -9,27 +9,26 @@ namespace CyberSecurity_Awareness_chatbot
 {
     public class Chatbot
     {         
-        public void chatbot_begin()
+        public void Chatbot_Start()
         {
             Introduction intro = new Introduction();
-
-            intro.Start_Introduction();
-
-            string Name_User = intro.Name_User;
+                        
             Console.WriteLine();
             Console.WriteLine("/////////////////////////////////////");
             Console.WriteLine(" CYBERSECURITY AWARENESS BOT");
             Console.WriteLine("/////////////////////////////////////");
+            Console.Write("Bot: Welcome to the Cybersecurity Awareness Chatbot," +
+                " \nI am here to help you learn how to stay safe online. ");
+            Console.WriteLine();
+            intro.Start_Introduction();
+            string Name_User = intro.Name_User;
 
-            Console.WriteLine("Bot: Welcome, " + Name_User + "!");
-            Console.WriteLine("Bot: I am here to help you stay safe online.");
-            Console.WriteLine("Bot: You can ask me about passwords,phishing,");
-            Console.WriteLine("Bot: safe browsing,malware and privacy");
-            Console.WriteLine("Type 'exit when you wany to leave'");
+            Console.WriteLine("Bot: You can ask me questions about passwords,phishing,\n" +
+                "malware,safe browsing,privacy");
             Console.WriteLine();
 
-
-
+            Console.WriteLine("Bot: You can type 'exit' when you want to leave");
+            Console.WriteLine();
             Communication responseSystem = new Communication(Name_User);
 
             while (true)

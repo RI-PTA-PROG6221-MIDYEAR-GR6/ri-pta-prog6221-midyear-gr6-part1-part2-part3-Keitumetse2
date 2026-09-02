@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Student\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\POE\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Keitumetse2\\CyberSecurity Awareness chatbot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6686934-2F64-4888-99D3-EC8FB6A45AAC}|CyberSecurity Awareness chatbot.csproj|c:\\users\\student\\onedrive - advtech ltd\\documents\\github\\poe\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-keitumetse2\\cybersecurity awareness chatbot\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6686934-2F64-4888-99D3-EC8FB6A45AAC}|CyberSecurity Awareness chatbot.csproj|solutionrelative:chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6686934-2F64-4888-99D3-EC8FB6A45AAC}|CyberSecurity Awareness chatbot.csproj|c:\\users\\student\\onedrive - advtech ltd\\documents\\github\\poe\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-keitumetse2\\cybersecurity awareness chatbot\\communication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6686934-2F64-4888-99D3-EC8FB6A45AAC}|CyberSecurity Awareness chatbot.csproj|solutionrelative:communication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6686934-2F64-4888-99D3-EC8FB6A45AAC}|CyberSecurity Awareness chatbot.csproj|c:\\users\\student\\onedrive - advtech ltd\\documents\\github\\poe\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-keitumetse2\\cybersecurity awareness chatbot\\introduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6686934-2F64-4888-99D3-EC8FB6A45AAC}|CyberSecurity Awareness chatbot.csproj|solutionrelative:introduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6686934-2F64-4888-99D3-EC8FB6A45AAC}|CyberSecurity Awareness chatbot.csproj|c:\\users\\student\\onedrive - advtech ltd\\documents\\github\\poe\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-keitumetse2\\cybersecurity awareness chatbot\\voicegreeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6686934-2F64-4888-99D3-EC8FB6A45AAC}|CyberSecurity Awareness chatbot.csproj|solutionrelative:voicegreeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6686934-2F64-4888-99D3-EC8FB6A45AAC}|CyberSecurity Awareness chatbot.csproj|c:\\users\\student\\onedrive - advtech ltd\\documents\\github\\poe\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-keitumetse2\\cybersecurity awareness chatbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6686934-2F64-4888-99D3-EC8FB6A45AAC}|CyberSecurity Awareness chatbot.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6686934-2F64-4888-99D3-EC8FB6A45AAC}|CyberSecurity Awareness chatbot.csproj|c:\\users\\student\\onedrive - advtech ltd\\documents\\github\\poe\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-keitumetse2\\cybersecurity awareness chatbot\\introduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6686934-2F64-4888-99D3-EC8FB6A45AAC}|CyberSecurity Awareness chatbot.csproj|solutionrelative:introduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6686934-2F64-4888-99D3-EC8FB6A45AAC}|CyberSecurity Awareness chatbot.csproj|c:\\users\\student\\onedrive - advtech ltd\\documents\\github\\poe\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-keitumetse2\\cybersecurity awareness chatbot\\communication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6686934-2F64-4888-99D3-EC8FB6A45AAC}|CyberSecurity Awareness chatbot.csproj|solutionrelative:communication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6686934-2F64-4888-99D3-EC8FB6A45AAC}|CyberSecurity Awareness chatbot.csproj|c:\\users\\student\\onedrive - advtech ltd\\documents\\github\\poe\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-keitumetse2\\cybersecurity awareness chatbot\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6686934-2F64-4888-99D3-EC8FB6A45AAC}|CyberSecurity Awareness chatbot.csproj|solutionrelative:chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +30,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Chatbot.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\POE\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Keitumetse2\\CyberSecurity Awareness chatbot\\Chatbot.cs",
+              "RelativeDocumentMoniker": "Chatbot.cs",
+              "ToolTip": "C:\\Users\\Student\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\POE\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Keitumetse2\\CyberSecurity Awareness chatbot\\Chatbot.cs",
+              "RelativeToolTip": "Chatbot.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA0wBAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T19:20:56.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Communication.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\POE\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Keitumetse2\\CyberSecurity Awareness chatbot\\Communication.cs",
+              "RelativeDocumentMoniker": "Communication.cs",
+              "ToolTip": "C:\\Users\\Student\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\POE\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Keitumetse2\\CyberSecurity Awareness chatbot\\Communication.cs",
+              "RelativeToolTip": "Communication.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwD0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T17:08:59.401Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -40,7 +66,7 @@
               "RelativeDocumentMoniker": "Introduction.cs",
               "ToolTip": "C:\\Users\\Student\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\POE\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Keitumetse2\\CyberSecurity Awareness chatbot\\Introduction.cs",
               "RelativeToolTip": "Introduction.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-01T21:06:20.873Z",
               "EditorCaption": ""
@@ -48,32 +74,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Chatbot.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\POE\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Keitumetse2\\CyberSecurity Awareness chatbot\\Chatbot.cs",
-              "RelativeDocumentMoniker": "Chatbot.cs",
-              "ToolTip": "C:\\Users\\Student\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\POE\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Keitumetse2\\CyberSecurity Awareness chatbot\\Chatbot.cs",
-              "RelativeToolTip": "Chatbot.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T19:20:56.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Communication.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\POE\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Keitumetse2\\CyberSecurity Awareness chatbot\\Communication.cs",
-              "RelativeDocumentMoniker": "Communication.cs",
-              "ToolTip": "C:\\Users\\Student\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\POE\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Keitumetse2\\CyberSecurity Awareness chatbot\\Communication.cs",
-              "RelativeToolTip": "Communication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-01T17:08:59.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "VoiceGreeting.cs",
               "DocumentMoniker": "C:\\Users\\Student\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\POE\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Keitumetse2\\CyberSecurity Awareness chatbot\\VoiceGreeting.cs",
               "RelativeDocumentMoniker": "VoiceGreeting.cs",
@@ -81,19 +81,21 @@
               "RelativeToolTip": "VoiceGreeting.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-20T11:54:41.377Z"
+              "WhenOpened": "2026-08-20T11:54:41.377Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\POE\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Keitumetse2\\CyberSecurity Awareness chatbot\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Student\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\POE\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Keitumetse2\\CyberSecurity Awareness chatbot\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-20T11:53:26.313Z"
+              "WhenOpened": "2026-08-20T11:53:26.313Z",
+              "EditorCaption": ""
             }
           ]
         }

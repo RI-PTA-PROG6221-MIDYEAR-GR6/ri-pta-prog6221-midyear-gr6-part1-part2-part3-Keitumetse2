@@ -8,26 +8,14 @@ using System.Xml.Linq;
 namespace CyberSecurity_Awareness_chatbot
 {
     public class Chatbot
-    {
-        public String Name_User = "";
-        public void Chatbot_Start()
-        {
-            Ask_User_Name();
-            chatbot_begin();
-        }
-
-        public void Ask_User_Name()
-        {
-            Console.WriteLine("Bot: What is your name?? or enter a nickname to proceed");
-            Console.Write("You:");
-            Name_User = Console.ReadLine();
-
-            Console.WriteLine();
-            Console.WriteLine("Bot: Nice to meet you " + Name_User + " !!");
-        }
-
+    {         
         public void chatbot_begin()
         {
+            Introduction intro = new Introduction();
+
+            intro.Start_Introduction();
+
+            string Name_User = intro.Name_User;
             Console.WriteLine();
             Console.WriteLine("/////////////////////////////////////");
             Console.WriteLine(" CYBERSECURITY AWARENESS BOT");

@@ -36,14 +36,14 @@ namespace CyberSecurity_Awareness_chatbot
             });
             responses.Add("what is a password", new List<string>
             {
-                "A password is a secret combination used to protect an account, " + userName + ".",
-                "A password helps prevent other people from accessing your account, " + userName + "."
+                "A password is a secret combination used to protect an account, " + Name + ".",
+                "A password helps prevent other people from accessing your account, " + Name + "."
             });
 
             responses.Add("how do i make a strong password", new List<string>
             {
-                "Use a long password with a mix of letters, numbers and symbols, " + userName + ".",
-                "Avoid using easy information such as your name or birthday in a password, " + userName + "."
+                "Use a long password with a mix of letters, numbers and symbols, " + Name + ".",
+                "Avoid using easy information such as your name or birthday in a password, " + Name + "."
             });
             
             responses.Add("phishing", new List<string> 

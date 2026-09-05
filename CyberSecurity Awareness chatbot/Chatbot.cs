@@ -24,9 +24,13 @@ namespace CyberSecurity_Awareness_chatbot
             intro.Start_Introduction();
             string Name_User = intro.Name_User;
             Console.WriteLine("///////////....CyberSecurity Questions....///////////");
-            Console.WriteLine("Bot: You can ask me questions about passwords,phishing,\n" +
-                "malware,safe browsing,privacy");
-            Console.WriteLine("/////////////////////////////////////////////////////");
+            Console.WriteLine("Bot: You can ask me questions about:\n" +
+                " passwords,\n" +
+                "phishing,\n" +
+                "malware,\n" +
+                "safe browsing,\n" +
+                "privacy");
+            Console.WriteLine("\n/////////////////////////////////////////////////////");
             Console.WriteLine();
 
             Console.WriteLine("Bot: You can type 'exit' when you want to leave");

@@ -70,6 +70,10 @@ namespace CyberSecurity_Awareness_chatbot
         }
         public string getResponse(string input)
         {
+            if (string.IsNullOrWhiteSpace(input))
+                {
+                  return "I didn't quite understand that. Could you rephrase?";
+                }
             input = input.ToLower();
             foreach (var item in responses)
             {

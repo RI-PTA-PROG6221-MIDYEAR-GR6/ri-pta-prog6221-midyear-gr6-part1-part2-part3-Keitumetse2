@@ -34,6 +34,17 @@ namespace CyberSecurity_Awareness_chatbot
                 "Do not use the same password for every account, " + Name + ".",
                 "A password manager can help you create and store strong passwords, " + Name + "."
             });
+            responses.Add("what is a password", new List<string>
+            {
+                "A password is a secret combination used to protect an account, " + userName + ".",
+                "A password helps prevent other people from accessing your account, " + userName + "."
+            });
+
+            responses.Add("how do i make a strong password", new List<string>
+            {
+                "Use a long password with a mix of letters, numbers and symbols, " + userName + ".",
+                "Avoid using easy information such as your name or birthday in a password, " + userName + "."
+            });
             
             responses.Add("phishing", new List<string> 
             {

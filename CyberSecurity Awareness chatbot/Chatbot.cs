@@ -19,12 +19,14 @@ namespace CyberSecurity_Awareness_chatbot
             Console.WriteLine("/////////////////////////////////////");
             Console.Write("Bot: Welcome to the Cybersecurity Awareness Chatbot," +
                 " \nI am here to help you learn how to stay safe online. ");
+            Console.WriteLine("/////////////////////////////////////");
             Console.WriteLine();
             intro.Start_Introduction();
             string Name_User = intro.Name_User;
-
+            Console.WriteLine("///////////....CyberSecurity Questions....///////////");
             Console.WriteLine("Bot: You can ask me questions about passwords,phishing,\n" +
                 "malware,safe browsing,privacy");
+            Console.WriteLine("/////////////////////////////////////////////////////");
             Console.WriteLine();
 
             Console.WriteLine("Bot: You can type 'exit' when you want to leave");

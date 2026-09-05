@@ -17,10 +17,14 @@ namespace CyberSecurity_Awareness_chatbot
         public void Ask_User_Name()
         {
             Console.WriteLine();
+            Console.WriteLine("///////////>>User Names<<///////////");
             Console.WriteLine("Bot: What is your name or nickname?"); 
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.Write("You: ");
+            Console.ResetColor();
             Name_User = Console.ReadLine();
             Console.WriteLine("Bot: Nice to meet you, " + Name_User + "!");
+            Console.WriteLine("////////////////////////////////////");
             Console.WriteLine(); 
         }
        

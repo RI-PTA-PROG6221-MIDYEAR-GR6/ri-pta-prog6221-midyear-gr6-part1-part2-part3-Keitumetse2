@@ -14,22 +14,29 @@ namespace CyberSecurity_Awareness_chatbot
             Introduction intro = new Introduction();
                         
             Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("/////////////////////////////////////");
             Console.WriteLine(" CYBERSECURITY AWARENESS BOT");
             Console.WriteLine("/////////////////////////////////////");
+            Console.ResetColor();
             Console.Write("Bot: Welcome to the Cybersecurity Awareness Chatbot," +
                 " \nI am here to help you learn how to stay safe online. ");
             Console.WriteLine("/////////////////////////////////////");
             Console.WriteLine();
             intro.Start_Introduction();
             string Name_User = intro.Name_User;
+            
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("///////////....CyberSecurity Questions....///////////");
+            Console.ResetColor();
             Console.WriteLine("Bot: You can ask me questions about:\n" +
-                " passwords,\n" +
-                "phishing,\n" +
+                "passwords or What is a password,\n" +
+                "phishing or What is phishing,\n" +
                 "malware,\n" +
                 "safe browsing,\n" +
-                "privacy");
+                "privacy,\n" +
+                "AntiVirus"
+            );
             Console.WriteLine("\n/////////////////////////////////////////////////////");
             Console.WriteLine();
 
@@ -39,8 +46,10 @@ namespace CyberSecurity_Awareness_chatbot
 
             while (true)
             {
-                Console.Write("You: ");
-                string question = Console.ReadLine();
+               Console.ForegroundColor = ConsoleColor.Green;
+               Console.Write("You: ");
+               Console.ResetColor();
+               string question = Console.ReadLine();
 
                 if (question.ToLower() == "exit")
                 {
@@ -53,8 +62,6 @@ namespace CyberSecurity_Awareness_chatbot
                 Console.WriteLine();
 
             }
-
-
         }
     }
 }

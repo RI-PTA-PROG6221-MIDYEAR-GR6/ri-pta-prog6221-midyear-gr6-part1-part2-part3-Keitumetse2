@@ -37,7 +37,7 @@ namespace CyberSecurity_Awareness_chatbot
             responses.Add("what is a password", new List<string>
             {
                 "A password is a secret combination used to protect an account, " + Name + ".",
-                "A password helps prevent other people from accessing your account, " + Name + "."
+                "A password helps prevent other people from accessing your account, " + Name + ".",
                 "Passwords are used to keep your accounts secure, " + Name + "."
             });
 

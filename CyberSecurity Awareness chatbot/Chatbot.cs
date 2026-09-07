@@ -12,16 +12,17 @@ namespace CyberSecurity_Awareness_chatbot
         public void Chatbot_Start()
         {
             Introduction intro = new Introduction();
-                        
+                                    
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("/////////////////////////////////////");
             Console.WriteLine(" CYBERSECURITY AWARENESS BOT");
             Console.WriteLine("/////////////////////////////////////");
             Console.ResetColor();
-            Console.Write("Bot: Welcome to the Cybersecurity Awareness Chatbot," +
+            Console.Write("Bot: ");
+            slow_Type("Welcome to the Cybersecurity Awareness Chatbot," +
                 " \nI am here to help you learn how to stay safe online. ");
-            Console.WriteLine("/////////////////////////////////////");
+            Console.WriteLine("\n/////////////////////////////////////");
             Console.WriteLine();
             intro.Start_Introduction();
             string Name_User = intro.Name_User;

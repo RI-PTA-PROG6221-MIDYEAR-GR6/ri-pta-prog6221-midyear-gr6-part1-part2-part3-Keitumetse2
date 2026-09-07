@@ -53,15 +53,31 @@ namespace CyberSecurity_Awareness_chatbot
 
                 if (question.ToLower() == "exit")
                 {
-                    Console.WriteLine("Bot: Goodbye " + Name_User);
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    Console.Write("Bot: ");
+                    Console.ResetColor();
+
+                    slow_Typing("Goodbye " + Name_User);
                     break;
                 }
                 string response = responseSystem.getResponse(question);
 
-                Console.WriteLine("Bot: " + response);
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("Bot: ");
+                Console.ResetColor();
+                slow_Typing(response);
                 Console.WriteLine();
 
             }
         }
+        public void slow_Typing(string text)
+         {
+            foreach (char letter in text)
+             {
+                Console.Write(letter);
+                Thread.Sleep(38);
+             }
+                Console.WriteLine();
+       }
     }
 }

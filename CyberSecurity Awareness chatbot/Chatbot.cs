@@ -20,7 +20,7 @@ namespace CyberSecurity_Awareness_chatbot
             Console.WriteLine("/////////////////////////////////////");
             Console.ResetColor();
             Console.Write("Bot: ");
-            slow_Type("Welcome to the Cybersecurity Awareness Chatbot," +
+            slow_Typing("Welcome to the Cybersecurity Awareness Chatbot," +
                 " \nI am here to help you learn how to stay safe online. ");
             Console.WriteLine("\n/////////////////////////////////////");
             Console.WriteLine();

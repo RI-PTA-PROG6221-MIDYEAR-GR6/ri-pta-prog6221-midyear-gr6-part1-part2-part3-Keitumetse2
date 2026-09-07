@@ -71,13 +71,13 @@ namespace CyberSecurity_Awareness_chatbot
             }
         }
         public void slow_Typing(string text)
-         {
-            foreach (char letter in text)
-             {
-                Console.Write(letter);
-                Thread.Sleep(38);
-             }
-                Console.WriteLine();
-       }
+            {
+               for (int i = 0; i < text.Length; i++)
+                   {
+                     Console.Write(text[i]);
+                     Thread.Sleep(38);
+                   }
+                     Console.WriteLine();
+           }
     }
 }

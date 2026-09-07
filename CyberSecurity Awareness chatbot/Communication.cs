@@ -38,6 +38,7 @@ namespace CyberSecurity_Awareness_chatbot
             {
                 "A password is a secret combination used to protect an account, " + Name + ".",
                 "A password helps prevent other people from accessing your account, " + Name + "."
+                "Passwords are used to keep your accounts secure, " + Name + "."
             });
 
             responses.Add("how do i make a strong password", new List<string>
@@ -52,7 +53,12 @@ namespace CyberSecurity_Awareness_chatbot
                 "Be careful when clicking links in suspicious emails or messages, " + Name + ".",
                 "Always check who sent a message before clicking on links, " + Name + "." 
             });
-            
+            responses.Add("what is phishing", new List<string>
+            { 
+                "Phishing is a scam where someone tries to steal your information using fake messages, " + Name + ".",
+                "Phishing messages can look like they came from a trusted company or person, " + Name + ".", 
+                "Phishing is used to trick people into giving away passwords or personal information, " + Name + "."
+            });
             responses.Add("safe browsing", new List<string>
             { 
                 "Keep your web browser updated, " + Name + ".",
@@ -72,6 +78,12 @@ namespace CyberSecurity_Awareness_chatbot
                 " " + Name + ".", 
                 "Check the privacy settings on your social media accounts, " + Name + "."
             });
+            responses.Add("antivirus", new List<string>
+            { 
+                "Antivirus software can help detect and remove harmful software, " + Name + ".", 
+                "Keep your antivirus software updated to help protect your computer, " + Name + ".", 
+                "Use trusted security software to help protect your device from malware, " + Name + "."
+            });
             responses.Add("thank you", new List<string>
             {
                 "You re welcome "+ Name + ".",
@@ -85,7 +97,20 @@ namespace CyberSecurity_Awareness_chatbot
                 {
                   return "I didn't quite understand that. Could you rephrase?";
                 }
-            input = input.ToLower();
+            input = input.ToLower().Trim();
+
+            if (input == "what is a password")
+               {
+                 return getRandom_response(responses["what is a password"]);
+               }
+             if (input == "how do i make a strong password")
+               {
+                 return getRandom_response(responses["how do i make a strong password"]);
+               }
+              if (input == "what is phishing")
+               {
+                 return getRandom_response(responses["what is phishing"]);
+               }
             foreach (var item in responses)
             {
                 if (input.Contains(item.Key))

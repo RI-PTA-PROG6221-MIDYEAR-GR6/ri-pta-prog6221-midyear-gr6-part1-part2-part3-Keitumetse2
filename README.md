@@ -63,8 +63,8 @@ The Introduction class handles the beginning of the conversation.
 - It uses a Dictionary to store different response and an existing getRandom_response() method to randomly select a response.
 
 ## 6. How to run my program
-##### Before you start
-- Visual Studio must be installed.
+- Visual Studio 2022 must be installed, With (.NET SDK version 08) installed.
+- The package System.Windows.Extensions also needed to be installed.
 - The full project downloaded or cloned from GitHub.
 - Open the project in Visual Studio.
 - Open the solution or project file.
@@ -72,3 +72,4 @@ The Introduction class handles the beginning of the conversation.
 - Check that the voice greeting file is in the project.
 - Run the program by clicking Starts without debugging or press a shortcut Ctrl + f5.
 - Then the program should begin with the voice greeting and the ASCII art.
+
